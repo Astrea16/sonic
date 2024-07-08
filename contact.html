@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Sonic logistics draft</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240708203339">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="about.html" class="menu__link">About</a>
+								</li>
+								<li class="menu__item menu__item--parent">
+									<a href="shippers.html" class="menu__link _icon-arrow-down">Shippers</a>
+									<div class="sub-menu">
+										<ul class="sub-menu__list">
+											<li class="sub-menu__item">
+												<a href="#" class="sub-menu__link">Page #1</a>
+											</li>
+											<li class="sub-menu__item">
+												<a href="#" class="sub-menu__link">Page #2</a>
+											</li>
+											<li class="sub-menu__item">
+												<a href="#" class="sub-menu__link">Page #3</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="menu__item menu__item--parent">
+									<a href="carriers.html" class="menu__link _icon-arrow-down">Carriers</a>
+									<div class="sub-menu">
+										<ul class="sub-menu__list">
+											<li class="sub-menu__item">
+												<a href="#" class="sub-menu__link">Page #1</a>
+											</li>
+											<li class="sub-menu__item">
+												<a href="#" class="sub-menu__link">Page #2</a>
+											</li>
+											<li class="sub-menu__item">
+												<a href="#" class="sub-menu__link">Page #3</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="menu__item">
+									<a href="contact.html" class="menu__link">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header__actions actions">
+					<button class="actions__button button button--bg">Get a quote</button>
+					<button aria-label="open the menu" type="button" class="actions__icon icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__contact contact">
+				<div class="contact__container">
+					<div class="sidebar">
+						<div class="sidebar__header">
+							<h3 class="sidebar__title">Let’s Start</h3>
+							<div class="sidebar__text">
+								<p>We’ love to hear from you. Give us a call and see how we can solve your logistical challenges.</p>
+							</div>
+						</div>
+						<div class="sidebar__body">
+							<div class="sidebar__item item-sidebar _icon-message-chat">
+								<div class="item-sidebar__body">
+									<h4 class="item-sidebar__title">Email us</h4>
+									<p>Let us know how we can help.</p>
+									<a href="mailto:support@sonic-logistics.com" class="item-sidebar__link">support@sonic-logistics.com</a>
+								</div>
+							</div>
+							<div class="sidebar__item item-sidebar item-sidebar--phone">
+								<div class="item-sidebar__body">
+									<h4 class="item-sidebar__title">Call Us</h4>
+									<p>Available 24 hours a day, 7 days a week.</p>
+									<a href="tel:(469)5454687" class="item-sidebar__link">+1(469) 545-4687</a>
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__footer">
+							<div class="sidebar__sosial social">
+								<a href="#" class="social__item _icon-x"></a>
+								<a href="#" class="social__item _icon-linkedin"></a>
+								<a href="#" class="social__item _icon-facebook"></a>
+								<a href="#" class="social__item _icon-git"></a>
+								<a href="#" class="social__item _icon-icon"></a>
+								<a href="#" class="social__item _icon-dribbble"></a>
+							</div>
+						</div>
+					</div>
+					<div class="contact__content">
+						<div class="contact__body">
+							<div class="contact__caption caption">
+								<h2 class="headihg">Get a Quote</h2>
+								<div class="text text--caption">
+									<p>Or give us a call. We’re available 24/7.</p>
+								</div>
+							</div>
+							<form action="#" class="contact__form form-contact" method="POST">
+								<div class=" form-contact__body">
+									<div class="form-contact__line form-contact__line--doubly">
+										<div class="form-contact__item">
+											<label for="name">First name</label>
+											<input id="name" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="First name" class="input">
+										</div>
+										<div class="form-contact__item">
+											<label for="name-2">Last name</label>
+											<input id="name-2" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Last name" class="input">
+										</div>
+									</div>
+									<div class="form-contact__line">
+										<label for="email">Email</label>
+										<input id="email" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="you@company.com" class="input">
+									</div>
+									<div class="form-contact__line">
+										<label for="tel">Phone number</label>
+										<div class="form-contact__combo">
+											<select class="form-contact__select" name="form[]" data-class-modif="form">
+												<option value="United States" selected>UA</option>
+												<option value="United Kingdom">UK</option>
+												<option value="Canada">CA </option>
+												<option value="Mexico">MX</option>
+												<option value="Japan">JP </option>
+												<option value="Japan">DE </option>
+												<option value="Japan">FR </option>
+											</select>
+											<input id="tel" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="+1 (555) 000-0000" class="input">
+										</div>
+									</div>
+									<div class="form-contact__line">
+										<label for="message">Message</label>
+										<textarea class="input" name="message" id="message" placeholder="Leave us a message.."></textarea>
+									</div>
+									<div class="form-contact__line form-contact__line--checkbox">
+										<label>Services</label>
+										<div class="form-contact__group">
+											<div class="checkbox">
+												<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_1" class="checkbox__label">
+													<span class="checkbox__text">Website design</span>
+												</label>
+											</div>
+
+											<div class="checkbox">
+												<input id="c_2" data-error="Помилка" class="checkbox__input" type="checkbox" value="2" name="form[]">
+												<label for="c_2" class="checkbox__label">
+													<span class="checkbox__text">UX design</span>
+												</label>
+											</div>
+
+											<div class="checkbox">
+												<input id="c_3" data-error="Помилка" class="checkbox__input" type="checkbox" value="3" name="form[]">
+												<label for="c_3" class="checkbox__label">
+													<span class="checkbox__text">User research</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<input id="c_4" data-error="Помилка" class="checkbox__input" type="checkbox" value="4" name="form[]">
+												<label for="c_4" class="checkbox__label">
+													<span class="checkbox__text">Content creation</span>
+												</label>
+											</div>
+
+											<div class="checkbox">
+												<input id="c_5" data-error="Помилка" class="checkbox__input" type="checkbox" value="5" name="form[]">
+												<label for="c_5" class="checkbox__label">
+													<span class="checkbox__text">Strategy & consulting</span>
+												</label>
+											</div>
+
+											<div class="checkbox">
+												<input id="c_6" data-error="Помилка" class="checkbox__input" type="checkbox" value="6" name="form[]">
+												<label for="c_6" class="checkbox__label">
+													<span class="checkbox__text">Other</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="submit" class="form-contact__button button button--bg">Get started</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20240708203339"></script>
+</body>
+
+</html>
